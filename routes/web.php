@@ -26,7 +26,7 @@ Route::get('/servizi', function () {
 
     $services = ['web', 'ciccio', 'market', 'consulenza']; //array semplice
     $titolo = 'I miei Servizi';
-
+    //test
     return view('services', ['services' => $services, 'titolo' => $titolo]);
 });
 
